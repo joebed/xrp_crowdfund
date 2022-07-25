@@ -1,0 +1,7 @@
+Idea:
+
+Fundraisers can be made for ... Fundraisers
+When an account creates a fundraiser, becomes a host
+People can donate, called supporter
+Supporter levels are created by host, has a string that describes the class created by fundraiser, int that describes level, int that describes how much XRP to get that
+Anyone can donate to an open fundraiser, ask the fundraiser how much more needed for next goal
