@@ -6,12 +6,11 @@ class Fundraiser():
             self,
             name: str,
             goal: int,
-            drops_raised: int,
             levels: Level,
             host: str) -> None:
         self.name = name
         self.goal = goal
-        self.drops_raised = drops_raised
+        self.drops_raised = 0
         self.levels = levels
         self.host = host
     
@@ -19,3 +18,6 @@ class Fundraiser():
             self,
             sender: str):
         pass
+
+    def __repr__(self) -> str:
+        return f"Fundraiser {self.name}\n\thost:\t{self.host}\n\tprogress:\t{self.drops_raised}/{self.goal}"
