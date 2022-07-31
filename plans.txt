@@ -5,3 +5,8 @@ When an account creates a fundraiser, becomes a host
 People can donate, called supporter
 Supporter levels are created by host, has a string that describes the class created by fundraiser, int that describes level, int that describes how much XRP to get that
 Anyone can donate to an open fundraiser, ask the fundraiser how much more needed for next goal
+
+
+NOTES
+Account_Info Request data: {'account_data': {'Account': 'r9JJZswd98UxsHYLs5x5K2gNjGt1h7VrNm', 'Balance': '1000000000', 'Flags': 0, 'LedgerEntryType': 'AccountRoot', 'OwnerCount': 0, 'PreviousTxnID': '900CBFEB845483D4F60EF04FBBC558D4EFA1C2F98B5BFD28222A1B63C0A18EB7', 'PreviousTxnLgrSeq': 29925458, 'Sequence': 29925458, 'index': '3026909F8BBB39C2A8B4B9A7E9371A10098057943D1A2FF67C01125B0C7DB923'}, 'ledger_hash': 'CD2C5DEB6D9C7AFE2C952385FFC2C053E12458146E4A797662F399F46316ADFD', 'ledger_index': 29925459, 'validated': True}
+
